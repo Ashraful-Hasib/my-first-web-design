@@ -24,6 +24,11 @@
   border: none;
   border-radius: 5px;
  }
+ .btn-primary:hover {
+  background-color: #ff3300;
+  color: white;
+ }
+
  .btn-secondary {
   margin-left: 30px;
   border: 1px solid #FD6E0A;
@@ -64,11 +69,12 @@ nav ul li a {
   font-size: 20px;
 }
 /* banner style */
-.header{
+.header-background{
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
-  margin: 38px 0px 25px 23px;
-  background-position: top left, bottom right ;
+  margin: 0px 0px 0px 0px;
+  background-position: top left, bottom right;
+  background-color: #FFF8F3;
 }
 .banner {
   display: flex;
@@ -81,10 +87,18 @@ nav ul li a {
 .banner-greetings {
   font-size: 45px ;
   font-weight: 600;
+  margin: 100px 0px 5px 0px;
 }
 .banner-title {
   font-size: 85px;
   font-weight: 700;
+  margin-bottom: 50px;
+  margin: 0px 0px 20px 0px;
+}
+.header-paragraph {
+  color: #474747;
+  font-size: 18px;
+  font-weight: 400;
 }
 .banner-profile-pic {
   width: 580px;
