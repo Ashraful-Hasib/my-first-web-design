@@ -78,6 +78,13 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
 }
+.navlink {
+  padding: 10px 20px;
+}
+.navlink:hover {
+  background-color: #ffe5d2;
+  padding: 10px 20px;
+}
 /* banner style */
 .header-background{
   background-image: url(../images/developer.png), url(../images/header_bg.png);
