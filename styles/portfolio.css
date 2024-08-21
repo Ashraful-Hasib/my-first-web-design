@@ -15,15 +15,24 @@
   color: #474747;
 }
 /* Button */
+.icon {
+  max-height: 16px;
+}
+.icon2 {
+  max-height: 16px;
+  vertical-align: middle;
+}
 .btn-primary {
   background-color: #FD6E0A;
-  padding: 18px 35px;
+  padding: 18px 20px;
   font-weight: 700;
   font-size: 20px;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  justify-content: space-between;
+  margin-right: auto;
  }
  .btn-primary:hover {
   background-color: #ff3300;
@@ -35,10 +44,10 @@
   border: 1px solid #FD6E0A;
   border-radius: 5px;
   color: #FD6E0A;
-  padding: 18px 35px;
+  padding: 18px 20px;
   font-weight: 700;
   font-size: 20px;
-  background-color: #FFF8F3;
+  background-color: #fff8f300;
   cursor: pointer;
  }
  .btn-secondary:hover {
